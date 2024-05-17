@@ -1,1 +1,2 @@
 C:\Suplement\sumplemetshop.client\obj\Debug\sumplemetshop.client.esproj.CoreCompileInputs.cache
+D:\Suplement\SumplementShop\sumplemetshop.client\obj\Debug\sumplemetshop.client.esproj.CoreCompileInputs.cache

@@ -1,34 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Suplement\\SumplemetShop.Server\\SumplemetShop.Server.csproj": {}
+    "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\SumplemetShop.Server.csproj": {}
   },
   "projects": {
-    "C:\\Suplement\\SumplemetShop.Server\\SumplemetShop.Server.csproj": {
+    "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\SumplemetShop.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Suplement\\SumplemetShop.Server\\SumplemetShop.Server.csproj",
+        "projectUniqueName": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\SumplemetShop.Server.csproj",
         "projectName": "SumplemetShop.Server",
-        "projectPath": "C:\\Suplement\\SumplemetShop.Server\\SumplemetShop.Server.csproj",
-        "packagesPath": "C:\\Users\\darko\\.nuget\\packages\\",
-        "outputPath": "C:\\Suplement\\SumplemetShop.Server\\obj\\",
+        "projectPath": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\SumplemetShop.Server.csproj",
+        "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
+        "outputPath": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +54,20 @@
               "target": "Package",
               "version": "[6.*-*, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -80,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

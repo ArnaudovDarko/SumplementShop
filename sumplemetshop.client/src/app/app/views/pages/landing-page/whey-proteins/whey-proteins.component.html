@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="protein-box" *ngFor="let protein of proteins">
+      <img [src]="protein.photoUrl" alt="{{protein.name}}">
+      <h3>{{protein.name}}</h3>
+      <p>{{protein.description}}</p>
+      <p><strong>Flavour:</strong> {{protein.flavour}}</p>
+      <p><strong>Price:</strong> {{protein.price}}</p>
+      <p><strong>Type:</strong> {{protein.type}}</p>
+    </div>
+  </div>
+  

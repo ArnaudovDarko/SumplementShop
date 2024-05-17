@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SumplemetShop.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2faeb57e393b8792f855183a62ceb0eca1d91c13")]
 [assembly: System.Reflection.AssemblyProductAttribute("SumplemetShop.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SumplemetShop.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

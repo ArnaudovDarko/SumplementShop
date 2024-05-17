@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:4200",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Suplement\\SumplemetShop.Server\\..\\sumplemetshop.client",
+"WorkingDirectory": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\..\\sumplemetshop.client",
 "MaxTimeoutInSeconds": "120"
 }
 }

@@ -1,12 +1,214 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Suplement\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Suplement\\SumplementShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\controllers\\proteinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\controllers\\proteinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\services\\proteinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\services\\proteinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\migrations\\20240515131802_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\migrations\\20240515131802_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\sumplemetshop.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\sumplemetshop.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\entities\\wheyproteins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\entities\\wheyproteins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\viewmodels\\proteinvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\viewmodels\\proteinvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\migrations\\20240516073421_changingnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\migrations\\20240516073421_changingnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\entities\\proteintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\entities\\proteintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\helpers\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\helpers\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|d:\\suplement\\sumplementshop\\sumplemetshop.server\\migrations\\20240516150952_photo_url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE78FEA-C74E-4D05-A778-D1F3CA85DA52}|SumplemetShop.Server\\SumplemetShop.Server.csproj|solutionrelative:sumplemetshop.server\\migrations\\20240516150952_photo_url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAGsUAAAAAAAAAIAwwJEUAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-16T16:26:32.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SumplemetShop.Server",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\SumplemetShop.Server.csproj",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\SumplemetShop.Server.csproj",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\SumplemetShop.Server.csproj",
+              "RelativeToolTip": "SumplemetShop.Server\\SumplemetShop.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-16T13:33:46.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProteinService.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Services\\ProteinService.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Services\\ProteinService.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Services\\ProteinService.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Services\\ProteinService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:37:23.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProteinsController.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Controllers\\ProteinsController.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Controllers\\ProteinsController.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Controllers\\ProteinsController.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Controllers\\ProteinsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:01:37.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240515131802_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Migrations\\20240515131802_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Migrations\\20240515131802_InitialCreate.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Migrations\\20240515131802_InitialCreate.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Migrations\\20240515131802_InitialCreate.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:18:02.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Program.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Program.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Program.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvx8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:36:15.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240516150952_Photo_Url.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Migrations\\20240516150952_Photo_Url.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Migrations\\20240516150952_Photo_Url.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Migrations\\20240516150952_Photo_Url.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Migrations\\20240516150952_Photo_Url.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T15:09:52.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProteinType.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Entities\\ProteinType.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Entities\\ProteinType.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Entities\\ProteinType.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Entities\\ProteinType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:51:51.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WheyProteins.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Entities\\WheyProteins.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Entities\\WheyProteins.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Entities\\WheyProteins.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Entities\\WheyProteins.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:47:38.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProteinVM.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\ViewModels\\ProteinVM.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\ViewModels\\ProteinVM.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\ViewModels\\ProteinVM.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\ViewModels\\ProteinVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:23:55.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240516073421_ChangingNames.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Migrations\\20240516073421_ChangingNames.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Migrations\\20240516073421_ChangingNames.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Migrations\\20240516073421_ChangingNames.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Migrations\\20240516073421_ChangingNames.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAADgvzkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:34:21.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Helpers\\DataContext.cs",
+              "RelativeDocumentMoniker": "SumplemetShop.Server\\Helpers\\DataContext.cs",
+              "ToolTip": "D:\\Suplement\\SumplementShop\\SumplemetShop.Server\\Helpers\\DataContext.cs",
+              "RelativeToolTip": "SumplemetShop.Server\\Helpers\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:46:21.574Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

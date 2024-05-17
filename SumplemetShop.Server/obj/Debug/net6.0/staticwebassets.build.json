@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "NTxcUgCoV4LJ3l/RsMO+K+UAJRwj+XWs8sfFvRPpbO4=",
+  "Hash": "HmyNbTCDOty6toomqTalMeH2io3VDYiLvmBOrP3XDNg=",
   "Source": "SumplemetShop.Server",
   "BasePath": "_content/SumplemetShop.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Suplement\\sumplemetshop.client\\sumplemetshop.client.esproj",
+      "Identity": "D:\\Suplement\\SumplementShop\\sumplemetshop.client\\sumplemetshop.client.esproj",
       "Version": 2,
       "Source": "sumplemetshop.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
