@@ -15,4 +15,10 @@ export class ProteinsService {
       environment.apiURL + "Proteins/getallproteins"
     )
   }
+
+  GetDiscountProducts():Observable<any[]>{
+    return this.http.get<any[]>(
+      environment.apiURL + "Proteins/getproductsondiscount"
+    )
+  }
 }

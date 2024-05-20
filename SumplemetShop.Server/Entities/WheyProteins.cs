@@ -14,5 +14,8 @@ namespace SumplemetShop.Server.Entities
         public int? Amount { get; set;}
         public bool? Available { get; set;}
         public string? photoUrl { get; set; }
+        public decimal? DiscountPrice { get; set; }
+        public bool? OnDiscount { get; set; }
+
     }
 }
