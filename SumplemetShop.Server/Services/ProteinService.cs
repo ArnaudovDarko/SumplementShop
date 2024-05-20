@@ -7,6 +7,7 @@ namespace SumplemetShop.Server.Services
     public interface IProteinService 
     {
         IEnumerable<WheyProteins> GetAllProteins();
+        IEnumerable<WheyProteins> GetDiscountProducts();
         public void AddProtein(WheyProteins protein);
     }
 
@@ -40,6 +41,11 @@ namespace SumplemetShop.Server.Services
         public IEnumerable<WheyProteins> GetAllProteins()
         {
              return from p in _context.Proteins where p.Available == true select p;
+        }
+
+        public IEnumerable<WheyProteins> GetDiscountProducts()
+        {
+            return from p in _context.Proteins where p.OnDiscount == true select p;
         }
     }
 }

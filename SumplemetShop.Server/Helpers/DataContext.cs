@@ -8,6 +8,7 @@ namespace SumplemetShop.Server.Helpers
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
         public DbSet<WheyProteins> Proteins { get; set; }
         public DbSet<ProteinType> proteinTypes { get; set; }
+        public DbSet<HomeImages>  HomeImages { get; set; }
      
     }
 }

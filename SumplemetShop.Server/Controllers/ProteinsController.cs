@@ -29,6 +29,20 @@ namespace SumplemetShop.Server.Controllers
             return Ok(null);
         }
 
+
+        [HttpGet("getproductsondiscount")]
+        public IActionResult getproductsondiscount()
+        {
+            var proteins = _proteinService.GetDiscountProducts();
+
+            if (proteins != null)
+            {
+                return Ok(proteins);
+            }
+
+            return Ok(null);
+        }
+
         [HttpPost("addprotein")]
         public IActionResult AddProtein(WheyProteins newprotein)
         {
