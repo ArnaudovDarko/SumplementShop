@@ -8,12 +8,16 @@ import { MatTableModule } from '@angular/material/table';
 import { HomeComponent } from './app/views/pages/landing-page/home/home.component';
 import { WheyProteinsComponent } from './app/views/pages/landing-page/whey-proteins/whey-proteins.component';
 import {MdbCarouselModule} from 'mdb-angular-ui-kit/carousel';
+import { FooterComponent } from './app/views/footer/footer.component';
+import { HeaderComponent } from './app/views/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    WheyProteinsComponent
+    WheyProteinsComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
