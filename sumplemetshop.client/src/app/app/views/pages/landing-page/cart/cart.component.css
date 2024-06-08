@@ -1,0 +1,21 @@
+.protein-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .protein-box img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .protein-box h3 {
+    margin-top: 0;
+  }
+  

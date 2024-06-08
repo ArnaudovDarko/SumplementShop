@@ -10,6 +10,7 @@ import { WheyProteinsComponent } from './app/views/pages/landing-page/whey-prote
 import {MdbCarouselModule} from 'mdb-angular-ui-kit/carousel';
 import { FooterComponent } from './app/views/footer/footer.component';
 import { HeaderComponent } from './app/views/header/header.component';
+import { CartComponent } from './app/views/pages/landing-page/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeaderComponent } from './app/views/header/header.component';
     HomeComponent,
     WheyProteinsComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
