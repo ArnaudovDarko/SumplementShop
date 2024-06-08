@@ -8,6 +8,7 @@ namespace SumplemetShop.Server.Services
     {
         IEnumerable<WheyProteins> GetAllProteins();
         IEnumerable<WheyProteins> GetDiscountProducts();
+        IEnumerable<WheyProteins> getProteinsById(int id);
         public void AddProtein(WheyProteins protein);
     }
 
@@ -46,6 +47,11 @@ namespace SumplemetShop.Server.Services
         public IEnumerable<WheyProteins> GetDiscountProducts()
         {
             return from p in _context.Proteins where p.OnDiscount == true select p;
+        }
+
+        public IEnumerable<WheyProteins> getProteinsById(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

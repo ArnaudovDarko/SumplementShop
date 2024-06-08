@@ -12,8 +12,8 @@
       </nav>
       <div class="cart">
         <a routerLink="/cart">
-          <img src="assets/cart-icon.png" alt="Cart" />
-          <span class="cart-count">0</span>
+          <img src="assets/cart-icon.png" routerLink="cart" routerLinkActive="active" ariaCurrentWhenActive="page" alt="Cart" />
+          <span class="cart-count">{{ cartItemCount }}</span>
         </a>
       </div>
     </div>

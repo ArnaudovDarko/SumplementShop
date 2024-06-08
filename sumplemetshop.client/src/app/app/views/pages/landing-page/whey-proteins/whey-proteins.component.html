@@ -4,8 +4,13 @@
       <h3>{{protein.name}}</h3>
       <p>{{protein.description}}</p>
       <p><strong>Flavour:</strong> {{protein.flavour}}</p>
-      <p><strong>Price:</strong> {{protein.price}}</p>
+      <p *ngIf="protein.onDiscount" class="new-price text-danger">{{protein.discountPrice | currency}}</p>
+      <p *ngIf="!protein.onDiscount">{{protein.price | currency}}</p>
       <p><strong>Type:</strong> {{protein.type}}</p>
+      <button class="btn btn-info" (click)="addtocart(protein)">Add to cart</button>
+      <div *ngIf="openPopup" class="window__container">
+        <p>Your item is added</p>
+      </div>
     </div>
   </div>
   

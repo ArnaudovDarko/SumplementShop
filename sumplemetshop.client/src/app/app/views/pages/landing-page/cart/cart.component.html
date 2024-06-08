@@ -1,0 +1,38 @@
+<div class="container mt-5">
+  <h2 class="mb-4">Your Cart</h2>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-6 mb-4" *ngFor="let protein of proteins">
+          <div class="card h-100">
+            <img class="card-img-top" [src]="protein.photoUrl" alt="{{protein.name}}">
+            <div class="card-body">
+              <h5 class="card-title">{{protein.name}}</h5>
+              <p class="card-text">{{protein.description}}</p>
+              <p><strong>Flavour:</strong> {{protein.flavour}}</p>
+              <p>
+                <strong>Price:</strong>
+                <span *ngIf="protein.onDiscount" class="new-price text-danger">{{protein.discountPrice | currency}}</span>
+                <span *ngIf="!protein.onDiscount">{{protein.price | currency}}</span>
+              </p>
+              <p><strong>Type:</strong> {{protein.type}}</p>
+              <p><strong>Quantity:</strong> {{protein.quantity}}</p>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-danger" (click)="removeFromCart(protein)">Remove from Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Order Summary</h4>
+          <p class="card-text"><strong>Total:</strong> {{total | currency}}</p>
+          <button class="btn btn-primary btn-block">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
