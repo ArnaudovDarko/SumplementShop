@@ -9,6 +9,8 @@ namespace SumplemetShop.Server.Helpers
         public DbSet<WheyProteins> Proteins { get; set; }
         public DbSet<ProteinType> proteinTypes { get; set; }
         public DbSet<HomeImages>  HomeImages { get; set; }
-     
+        public DbSet<Users> Users { get; set; }
+
+       
     }
 }

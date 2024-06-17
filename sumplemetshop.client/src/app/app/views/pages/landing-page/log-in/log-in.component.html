@@ -1,0 +1,42 @@
+<div class="login-container">
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          formControlName="username"
+          class="form-control"
+          placeholder="Enter your username"
+        />
+        <div *ngIf="loginForm.get('username').invalid && loginForm.get('username').touched" class="error">
+          Username is required
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="password-container">
+          <input
+            [type]="type"
+            id="password"
+            formControlName="password"
+            class="form-control"
+            placeholder="Enter your password"
+          />
+          <i
+            class="fa"
+            [ngClass]="eyeIcon"
+            (click)="togglePasswordVisibility()"
+          ></i>
+        </div>
+        <div *ngIf="loginForm.get('password').invalid && loginForm.get('password').touched" class="error">
+          Password is required
+        </div>
+      </div>
+     <p>Dont have account? <a routerLink="/SignUp">Sign Up</a></p>
+     
+      <button type="submit" class="btn btn-primary" click="(onLogin)" [disabled]="loginForm.invalid">Login</button>
+    </form>
+  </div>
+  
