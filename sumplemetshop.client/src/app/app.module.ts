@@ -13,7 +13,6 @@ import { HeaderComponent } from './app/views/header/header.component';
 import { CartComponent } from './app/views/pages/landing-page/cart/cart.component';
 import { SignUpComponent } from './app/views/pages/landing-page/sign-up/sign-up.component';
 import { LogInComponent } from './app/views/pages/landing-page/log-in/log-in.component';
-import { NgToastModule } from 'ng-angular-popup';
 import { tokenInterceptor } from './app/intercepters/token.interceptor';
 
 @NgModule({
@@ -30,7 +29,7 @@ import { tokenInterceptor } from './app/intercepters/token.interceptor';
   imports: [
     BrowserModule, HttpClientModule,
     AppRoutingModule,MatTableModule,
-    MdbCarouselModule,ReactiveFormsModule,NgToastModule
+    MdbCarouselModule,ReactiveFormsModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [{
