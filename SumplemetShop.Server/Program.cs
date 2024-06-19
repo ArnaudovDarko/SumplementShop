@@ -18,7 +18,7 @@ namespace SumplemetShop.Server
            
             builder.Services.AddControllers();
             builder.Services.AddScoped<IProteinService, ProteinService>();
-            builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SuplementsDb;Trusted_Connection=True;MultipleActiveResultSets=true"));
+            builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer("Server=(localdb)\\ProjectModels;Database=SuplementsDbNew;Trusted_Connection=True;MultipleActiveResultSets=true"));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
