@@ -20,6 +20,9 @@
     font-size: 24px;
     font-weight: bold;
   }
+  .active{
+    color: brown !important;
+  }
   
   .header .nav ul {
     list-style: none;

@@ -1,5 +1,6 @@
 export const environment = {
     production:false,
     isMockedEnable:false,
-    apiURL: "https://localhost:7262/api/"
+    apiURL: "https://localhost:7262/api/",
+    userKey: 'IdentityAppUser'
 };

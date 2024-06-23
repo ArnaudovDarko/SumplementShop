@@ -1,21 +1,45 @@
-<!-- header.component.html -->
-<header class="header">
+
+
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-      <div class="logo">
-        <a routerLink="/">MyShop</a>
-      </div>
-      <nav class="nav">
-        <ul>
-          <li><a routerLink="">Home</a></li>
-          <li><a routerLink="whey-proteins" routerLinkActive="active" ariaCurrentWhenActive="page">Whey Proteins</a></li>
-        </ul>
-      </nav>
-      <div class="cart">
-        <a routerLink="/cart">
-          <img src="assets/cart-icon.png" routerLink="cart" routerLinkActive="active" ariaCurrentWhenActive="page" alt="Cart" />
-          <span class="cart-count">{{ cartItemCount }}</span>
-        </a>
-      </div>
+       <a class="nav-brand">
+        <img src="../../../../../src/assets/images/supplement-transparent-icon-symbol-design-gym-fitness-collection-simple-element-vector-illustration-background-130311841.webp" class="me-3" alt="logo">
+       </a>
+       <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon" >
+              
+        </span>
+       </button>
+       <div class="collapse navbar-collapse">
+         <ul class="navbar-nav me-auto">
+          <li class="nav-item ">
+            <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" routerLink="Events" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Events</a>
+          </li>
+         </ul>
+         <ul class="navbar-nav" *ngIf="(accountService.user$ | async) === null">
+          <li class="nav-item">
+            <a  class="btn btn-secondary mx-2" routerLink="/account/register" routerLinkActive="active">
+              Create Account
+            </a>
+          </li>
+          <li class="nav-item">
+            <a  class="btn btn-secondary" routerLink="/account/login" routerLinkActive="active">
+             Login
+            </a>
+          </li>
+         </ul>
+
+         <div class="d-flex align-items-center" *ngIf="(accountService.user$ | async) as user">
+            <a class="text-white" style="text-decoration: none; cursor: pointer;">
+               Hi <span class="h3 text-warning">{{user.firstName | titlecase }}</span>
+            </a>
+            <a class="btn btn-secondary ms-2" (click)="logOut()">Logout</a>
+         </div>
+       </div>
     </div>
-  </header>
-  
+    </nav>
+   </header>

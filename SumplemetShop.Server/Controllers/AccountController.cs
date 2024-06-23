@@ -67,7 +67,7 @@ namespace SumplemetShop.Server.Controllers
             var result = await _userManager.CreateAsync(usertoAdd, model.Password);
             if (!result.Succeeded) return BadRequest(result.Errors);
 
-            return Ok("Your account has been created, you can login");
+            return Ok(new JsonResult(new {title = "Account Created", message = "Your account has been created, you can login"}));
         }
 
         private UserDto CreateApplicationUserDto(Users users)

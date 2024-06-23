@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -53,7 +54,29 @@ namespace SumplemetShop.Server
                         ValidateAudience = false
                     };
                 });
+
+
+            builder.Services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.InvalidModelStateResponseFactory = ActionContext =>
+                {
+                    var errors = ActionContext.ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .SelectMany(x => x.Value.Errors)
+                    .Select(x => x.ErrorMessage).ToArray();
+
+                    var toReturn = new
+                    {
+                        Errors = errors
+                    };
+
+                    return new BadRequestObjectResult(toReturn);
+                };
+            });
+
             var app = builder.Build();
+
+
 
             app.UseCors(x => x
               .AllowAnyOrigin()
@@ -61,6 +84,8 @@ namespace SumplemetShop.Server
               .AllowAnyHeader());
             app.UseDefaultFiles();
             app.UseStaticFiles();
+
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
