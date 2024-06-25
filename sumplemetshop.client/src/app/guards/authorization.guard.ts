@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { ActivatedRouteSnapshot,Router,RouterStateSnapshot,UrlTree } from "@angular/router";
 import { Observable, map } from "rxjs";
 import { AccountService } from "../account/account.service";
-import { User } from "../account/models/user";
+import { User } from "../account/models/account/user";
 import { SharedService } from "../core/_base/_layout/services/shared.service";
 
 @Injectable({

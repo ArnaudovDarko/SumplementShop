@@ -4,7 +4,7 @@ import { AccountService } from '../account.service';
 import { SharedService } from 'src/app/core/_base/_layout/services/shared.service';
 import { Router } from '@angular/router';
 import { take } from 'rxjs';
-import { User } from '../models/user';
+import { User } from '../models/account/user';
 
 @Component({
   selector: 'app-register',
@@ -16,18 +16,18 @@ export class RegisterComponent implements OnInit {
   submitted = false;
   errorMessages: string[] = [];
 
-  constructor(private formBuilder: FormBuilder, 
-    private sharedService:SharedService, 
-    private router:Router, 
+  constructor(private formBuilder: FormBuilder,
+    private sharedService: SharedService,
+    private router: Router,
     private accountService: AccountService) {
-      this.accountService.user$.pipe(take(1)).subscribe({
-        next: (user: User | null) =>{
-          if(user){
-            this.router.navigateByUrl('/')
-          }
+    this.accountService.user$.pipe(take(1)).subscribe({
+      next: (user: User | null) => {
+        if (user) {
+          this.router.navigateByUrl('/')
         }
-      })
-     }
+      }
+    })
+  }
 
   ngOnInit(): void {
     this.initializeForm();
@@ -45,23 +45,23 @@ export class RegisterComponent implements OnInit {
   register() {
     this.submitted = true;
     this.errorMessages = [];
-    
-     if(this.registerForm.valid){
+
+    if (this.registerForm.valid) {
       this.accountService.register(this.registerForm.value).subscribe({
         next: (response: any) => {
           console.log('fleve')
-          this.sharedService.showNotification(true, response.value.title,response.value.message);
+          this.sharedService.showNotification(true, response.value.title, response.value.message);
           this.router.navigateByUrl("/account/login")
           console.log(response.value.message)
         },
         error: error => {
-          if (error.error.errors){
+          if (error.error.errors) {
             this.errorMessages = error.error.errors;
-          }else{
+          } else {
             this.errorMessages.push(error.error)
           }
         }
       })
-     }
+    }
   }
 }

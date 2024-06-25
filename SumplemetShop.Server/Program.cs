@@ -26,6 +26,7 @@ namespace SumplemetShop.Server
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped<JWTService>();
+            builder.Services.AddScoped<EmailService>();
             builder.Services.AddIdentityCore<Users>(options =>
             {
                 options.Password.RequiredLength = 6;

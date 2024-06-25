@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AccountService } from '../account.service';
 import { take } from 'rxjs';
-import { User } from '../models/user';
+import { User } from '../models/account/user';
 
 @Component({
   selector: 'app-login',
@@ -73,6 +73,10 @@ export class LoginComponent implements OnInit {
         }
       })
      }
+  }
+
+  resendEmailConfirmationLink(){
+    this.router.navigateByUrl('/account/send-email/resend-email-confirmation-link')
   }
 
 }
