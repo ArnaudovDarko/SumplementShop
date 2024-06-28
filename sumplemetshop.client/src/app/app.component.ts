@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { AccountService } from './account/account.service';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +10,25 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
 
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private accountService: AccountService) {}
 
   ngOnInit() {
+    this.refreshUser();
   }
 
 
-  title = 'sumplemetshop.client';
+  private refreshUser(){
+    const jwt = this.accountService.getJWT();
+    if(jwt){
+      this.accountService.refreshUser(jwt).subscribe({
+        next: _ =>{},
+        error: _ =>{
+          this.accountService.logOut();
+        }
+      })
+
+    } else{
+      this.accountService.refreshUser(null).subscribe();
+    }
+  }
 }

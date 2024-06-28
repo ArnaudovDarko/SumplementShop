@@ -32,7 +32,7 @@ namespace SumplemetShop.Server.Controllers
 
         [HttpGet("getproductsondiscount")]
         public IActionResult getproductsondiscount()
-        {
+         {
             var proteins = _proteinService.GetDiscountProducts();
 
             if (proteins != null)
